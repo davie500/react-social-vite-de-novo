@@ -1,0 +1,26 @@
+.tudo {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 700px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+.imagem {
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid lightgreen;
+    object-fit: cover;
+}
+.numero_scripts {
+    display: flex;
+    position: absolute;
+}

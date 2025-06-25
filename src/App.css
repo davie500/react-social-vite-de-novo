@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.fundo {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(168, 168, 168, 0.1);
+    display: flex;
+}
