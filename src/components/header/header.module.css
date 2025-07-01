@@ -21,8 +21,9 @@
 }
 .botoes p {
     color: rgb(176, 176, 176);
-    font-size: 12px;
+    font-size: 5.5px;
     margin-top: 3px;
+    text-align: center;
 }
 .botoes > div {
     display: flex;
@@ -55,7 +56,7 @@
 .lupa {
     display: flex;
     position: absolute;
-    margin-right: 783px;
+    margin-right: 717px;
     margin-top: 21px;
     width: 17px;
 }
