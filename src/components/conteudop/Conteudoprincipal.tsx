@@ -1,3 +1,4 @@
+import { Iconify } from "../header/iconify/Iconify"
 import style from "./conteudoprincipal.module.css"
 import image from "./imagem/image.png"
 
@@ -24,13 +25,23 @@ export const ConteudoPrincipal = ()=>{
                                     <p>Seguindo</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className={style.nome}>
-                            <h3>Juliana Souza</h3>
-                            <p>@juu_librarian</p>
-                        </div>
-                        <div className={style.simbolos}>
-                            C
+                            <div className={style.nome}>
+                                <h3>Juliana Souza</h3>
+                                <p>@juu_librarian</p>
+                            </div>
+                            <div className={style.simbolos}>
+                                <div className={style.simbolo_c}>
+                                    C
+                                </div>
+                                <div className={style.simbolo_h}>
+                                    H
+                                </div>
+                                <div className={style.simbolo_p}>
+                                    P
+                                </div>
+                                <Iconify color="white" className={style.mais} icon="ic:round-plus" height={21} width={22} backgroundColor={"5E5E5E72"}/>
+                            </div>
+                            
                         </div>
                     </section>
                     <div className={style.sobre}>
@@ -43,14 +54,32 @@ export const ConteudoPrincipal = ()=>{
                     <div className={style.recentes}>
                         <p><strong>Scripts recentes</strong></p>
                     </div>
-                    <div className={style.scripts}>
-                        husgycbwceyggqg7yqgucwq
-                    </div>
-                    <div className={style.scripts}>
-                        vrhfbhwbycbewicw
-                    </div>
-                    <div className={style.scripts}>
-                        eqejnfdsbhbdsh vvyuvyi
+                    <div className={style.scriptsContainer}>
+                        <div className={style.scripts}>
+                            <Iconify icon="fontisto:quote-left" color="gray" width={30} className={style.pensador}/>
+                            <p>
+                            A continuação do 
+                        "O Busto Escarlate"
+                        finalmente saiuuu!!
+
+                        As luzes fracas faziam a
+                        ambientação da casa, o
+                        mistério era reforçado
+                        e eu não sei o resrto.
+                            </p>
+                        </div>
+                        <div className={style.scripts}>
+                            <Iconify icon="fontisto:quote-left" color="gray" width={30} className={style.pensador}/>
+                            <p>
+                            vrhfbhwbycbewicw
+                            </p>
+                        </div>
+                        <div className={style.scripts}>
+                            <Iconify icon="fontisto:quote-left" color="gray" width={30} className={style.pensador}/>
+                            <p>
+                            eqejnfdsbhbdsh vvyuvyi
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

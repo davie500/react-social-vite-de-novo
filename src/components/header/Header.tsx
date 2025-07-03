@@ -9,25 +9,25 @@ export const Header = ()=>{
     <div className={style.botoes}>
         <div>
             <button className={style.criar}>
-            <Iconify color="white" icon="ic:round-plus" height={25} width={25}/>
+            <Iconify color="white" icon="ic:round-plus" height={21} width={22}/>
             </button>
             <p>Criar</p>
         </div>
         <div>
             <button className={style.criar}>
-            <Iconify color="blue" icon="ix:user-profile-filled"  height={35} width={35} backgroundColor={"white"}/>
+            <Iconify color="blue" icon="ix:user-profile-filled"  height={25} width={24} backgroundColor={"white"}/>
             </button>
             <p>Perfil</p>
         </div>
         <div>
             <button className={style.criar}>
-            <Iconify color="white" icon="mdi:email"  height={24} width={24}/>
+            <Iconify color="white" icon="mdi:email"  height={21} width={22}/>
             </button>
             <p>Mensagens</p>
         </div>
        <div>
             <button className={style.criar}>
-            <Iconify color="white" icon="ooui:settings"  height={24} width={24}/>
+            <Iconify color="white" icon="ooui:settings"  height={21} width={22}/>
             </button>
             <p>Configurações</p>
        </div>
