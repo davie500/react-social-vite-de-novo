@@ -39,9 +39,10 @@ export const ConteudoPrincipal = ()=>{
                                 <div className={style.simbolo_p}>
                                     P
                                 </div>
-                                <Iconify color="white" className={style.mais} icon="ic:round-plus" height={21} width={22} backgroundColor={"5E5E5E72"}/>
+                                <div className={style.simbolo_mais}>
+                                    +
+                                </div>
                             </div>
-                            
                         </div>
                     </section>
                     <div className={style.sobre}>

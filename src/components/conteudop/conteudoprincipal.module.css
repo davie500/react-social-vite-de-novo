@@ -86,9 +86,9 @@ img {
     color: gray;
 }
 .simbolos {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
     font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -99,12 +99,14 @@ img {
 .simbolo_c {
     background-color: red;
     color: white;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 .simbolo_h {
     background-color: yellow;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     color: white;
     width: 30px;
     font-weight: normal;
@@ -113,6 +115,14 @@ img {
 }
 .simbolo_p {
     background-color: green;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.simbolo_mais {
+    background-color: gray;
     color: white;
     width: 30px;
     height: 30px;

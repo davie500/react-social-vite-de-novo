@@ -6,7 +6,5 @@ export const ConteudoReserva = ()=>{
             <div className={style.tudoinfo}>
                 <h1>Agora...</h1>
             </div>
-  
-        
     )
 }
